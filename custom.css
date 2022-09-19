@@ -1,0 +1,93 @@
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: monteserrat;
+    src: url(/font/static/Montserrat-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+* {
+    overflow-x: hidden;
+    font-family: monteserrat;
+    box-sizing: border-box;
+    
+}
+footer{
+    color:#212121c4
+}
+
+ textarea{
+    background-color: #212121;
+    border: 2px #fafafa3f solid;
+    width: 95%;
+    padding:4px
+    
+}
+label{
+    width: 95%;
+    padding: 2px;
+
+    
+}
+input{
+    height: 50px;
+    background-color: #212121;
+    border: 2px #fafafa3f solid;
+    width: 100%;
+    padding: 4px;
+    outline:none
+}
+input:focus,textarea:focus{
+    border: #fafafa solid;
+    outline:none;
+}
+
+label{
+    text-align: left;
+    justify-self: start;
+    align-self: flex-start;
+    margin-left: 6px;
+}
+
+.textarea{
+    margin-top: 30px;
+    
+    padding:20px 15px ;
+}
+
+
+
