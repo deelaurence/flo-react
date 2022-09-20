@@ -33,11 +33,11 @@ const Portfolio = () => {
           <figcaption className="font-semibold  ">A Liquidity Pool design</figcaption>
         </div>
       </div>
-      <div className="bg-darkshade gap-5 mb-10 flex items-center flex-col">
+      <div className="bg-darkshade gap-5 mb-10 flex  items-center flex-col">
         <div className="w-[300px]">
           <img className="" src={femmima} alt="" />
         </div>
-        <div className="-mb-2">
+        <div className="-mb-2 mr-4">
           
             <img className="w-[150px] " src={femmimaLogo} alt="" />
           
@@ -47,7 +47,7 @@ const Portfolio = () => {
         </div>
       </div>
       <button
-        className="border-[1px] h-12 w-56 -mt-6 font-semibold text-sm border-lightShade py-3 px-12 rounded-md"
+        className="border-[1px] h-14 w-56 -mt-6 font-semibold text-sm border-lightShade py-3 px-12 rounded-[8px]"
       >
         Explore More
       </button>

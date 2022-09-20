@@ -26,16 +26,16 @@ const Hero = () => {
         </h1>
       </div>
       <div className="invert flex gap-3 my-4 md:gap-6 lg:absolute lg:bottom-10">
-        <img className="h-4" src={twitter} alt="twitter" />
-        <img className="h-4" src={behance} alt="behance" />
-        <img className="h-4" src={github} alt="github" />
-        <img className="h-4" src={linkedIn} alt="linkedIn" />
-        <img className="h-4" src={message} alt="message" />
+        <img className="h-5" src={twitter} alt="twitter" />
+        <img className="h-5" src={behance} alt="behance" />
+        <img className="h-5" src={github} alt="github" />
+        <img className="h-5" src={linkedIn} alt="linkedIn" />
+        <img className="h-5" src={message} alt="message" />
       </div>
 
       <div className="absolute bottom-[10rem] right-0 md:bottom-0">
         <img
-          className="h-[100vw] relative md:h-[100vh]"
+          className="h-[90vw] relative md:h-[100vh]"
           src={heroImage}
           alt="heroImage"
         />
@@ -44,7 +44,7 @@ const Hero = () => {
         ></div>
       </div>
       <div
-        className="seperator absolute bottom-20 -translate-x-1/2 left-1/2 h-14 w-[2px] bg-lightShade"
+        className="seperator absolute bottom-20 -translate-x-1/2 left-1/2 h-14 w-[1.5px] bg-lightShade"
       ></div>
     </section>
   )  
