@@ -7,7 +7,7 @@ import  linkedIn from "./images/akar-icons_linkedin-v2-fill.png"
 import twitter from "./images/akar-icons_twitter-fill.png"
 const Hero = () => {
   return (
-    <section className="px-6 md:px-16 pt-28 pb-[22rem] relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
+    <section className="px-6 md:px-16 pt-20 pb-[22rem]  relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
       <h1 className="text-4xl font-semibold md:text-5xl">
         FLOURISH <span className="block overflow-hidden">RALPH</span>
       </h1>
@@ -20,12 +20,12 @@ const Hero = () => {
       </p>
       <div className="lg:self-center">
         <h1
-          className="text-xl mt-16 leading-8 font-bold z-10 lg:absolute lg:text-3xl lg:bottom-[30%] lg:-translate-x-1/2"
+          className="text-xl mt-20 leading-8 font-bold z-10 lg:absolute lg:text-3xl lg:bottom-[30%] lg:-translate-x-1/2"
         >
           PRODUCT <span className="block overflow-hidden">DESIGNER</span>
         </h1>
       </div>
-      <div className="invert flex gap-3 my-4 md:gap-6 lg:absolute lg:bottom-10">
+      <div className="invert flex gap-4 my-4 md:gap-6 lg:absolute lg:bottom-10">
         <img className="h-5" src={twitter} alt="twitter" />
         <img className="h-5" src={behance} alt="behance" />
         <img className="h-5" src={github} alt="github" />
@@ -35,7 +35,7 @@ const Hero = () => {
 
       <div className="absolute bottom-[10rem] right-0 md:bottom-0">
         <img
-          className="h-[90vw] relative md:h-[100vh]"
+          className="h-[85vw] relative md:h-[100vh]"
           src={heroImage}
           alt="heroImage"
         />

@@ -15,7 +15,7 @@ const Navbar = () => {
         <h3 className="self-end -mb-1 text-xl font-bold">Flo.</h3>
       </div>
       <div className="md:hidden flex flex-col gap-1 self-end font-[500]">
-      <p className='text-sm' >menu</p>
+      <p className='text-sm text-[#fafafab9]' >menu</p>
       </div>
     </nav>
 
