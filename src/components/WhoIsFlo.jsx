@@ -41,7 +41,7 @@ const WhoIsFlo = () => {
       </div>
 
       <div
-        className="flex border-[1px] h-14 w-56 rounded-[8px] mt-10 mb-24 px-4 py-3 border-darkShade md:absolute md:bottom-[5%] md:right-[10%]"
+        className="flex border-[1px] mx-auto h-14 w-56 rounded-[8px] mt-10 mb-24 px-4 py-3 border-darkShade md:absolute md:bottom-[5%] md:right-[10%]"
       >
         <p className="font-semibold">Download her CV</p>
         <img
