@@ -9,7 +9,7 @@ const WhoIsFlo = () => {
       className="bg-lightShade px-6 md:pl-16 relative text-darkShade flex flex-col"
     >
       <div
-        className="mt-20 self-center overflow-y-hidden md:absolute md:top-[30%] md:right-[10%] justify-self-center"
+        className="mt-16 self-center overflow-y-hidden md:absolute md:top-[30%] md:right-[10%] justify-self-center"
       >
         <h2
           className="text-3xl whitespace-nowrap overflow-visible font-semibold md:text-4xl md:font-bold"
@@ -18,7 +18,7 @@ const WhoIsFlo = () => {
         </h2>
       </div>
       <div
-        className="self-center py-10 justify-self-center md:ml-[15%] md:mt-12 md:self-start"
+        className="self-center pt-10 pb-16 justify-self-center md:ml-[15%] md:mt-12 md:self-start"
       >
         <img
           className="h-24"
