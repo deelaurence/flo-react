@@ -18,7 +18,7 @@ const WhoIsFlo = () => {
         </h2>
       </div>
       <div
-        className="self-center pt-10 pb-16 justify-self-center md:ml-[15%] md:mt-12 md:self-start"
+        className="self-center pt-10 pb-12 justify-self-center md:ml-[15%] md:mt-12 md:self-start"
       >
         <img
           className="h-24"
