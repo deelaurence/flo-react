@@ -27,7 +27,7 @@ const Skills = () => {
           </p>
         </div>
         <div
-          className="bg-darkShade overflow-hidden rounded-[4px] py-9 pl-6 text-lightShade h-[160px] w-[160px]"
+          className="bg-darkShade overflow-hidden rounded-[4px] py-7 pl-6 text-lightShade h-[160px] w-[160px]"
         >
           <img
             className="w-[30px] mt-3"
@@ -39,7 +39,7 @@ const Skills = () => {
           </p>
         </div>
         <div
-          className="bg-darkShade overflow-hidden rounded-[4px] py-9 pl-6 text-lightShade h-[160px] w-[160px]"
+          className="bg-darkShade overflow-hidden rounded-[4px] pt-10 pl-6 text-lightShade h-[160px] w-[160px]"
         >
           <img
             className="w-[30px] mt-3"
@@ -51,7 +51,7 @@ const Skills = () => {
           </p>
         </div>
         <div
-          className="bg-darkShade overflow-hidden rounded-[4px] py-9 pl-6 text-lightShade h-[160px] w-[160px]"
+          className="bg-darkShade overflow-hidden rounded-[4px] pt-11 pl-6 text-lightShade h-[160px] w-[160px]"
         >
           <img className="w-[30px] mt-3 " src={quill} alt="" />
           <p className="pt-4 text-xs font-semibold leading-none overflow-visible">
