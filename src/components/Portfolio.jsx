@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className="w-[300px]">
           <img className="" src={femmima} alt="" />
         </div>
-        <div className="-mb-2 mr-4">
+        <div className="-mb-2 mr-5">
           
             <img className="w-[150px] " src={femmimaLogo} alt="" />
           
@@ -47,7 +47,7 @@ const Portfolio = () => {
         </div>
       </div>
       <button
-        className="border-[1px] h-14 w-56 -mt-6 font-semibold text-sm border-lightShade py-3 px-12 rounded-[8px]"
+        className="border-[1px] h-14 w-56 -mt-6 font-semibold  border-lightShade py-3 px-12 rounded-[8px]"
       >
         Explore More
       </button>
