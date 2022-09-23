@@ -70,6 +70,7 @@ input{
     border: 1px #fafafa solid;
     width: 100%;
     padding: 4px;
+    padding-left: 15px;
     outline:none
 }
 input:focus,textarea:focus{
@@ -89,6 +90,8 @@ label{
     
     padding:20px 15px ;
 }
-/* .textarea */
+.textarea::placeholder{
+    color: #fafafa55;
+}
 
 
