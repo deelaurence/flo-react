@@ -67,7 +67,7 @@ label{
 input{
     height: 50px;
     background-color: #212121;
-    border: 1px #fafaface solid;
+    border: 1px #fafafa solid;
     width: 100%;
     padding: 4px;
     outline:none
@@ -89,6 +89,6 @@ label{
     
     padding:20px 15px ;
 }
-
+/* .textarea */
 
 
