@@ -52,7 +52,7 @@ footer{
 
  textarea{
     background-color: #212121;
-    border: 2px #fafafa3f solid;
+    border: 2px #fafafa solid;
     width: 95%;
     padding:4px
     
@@ -60,13 +60,14 @@ footer{
 label{
     width: 95%;
     padding: 2px;
+    color:#fafafa3f;
 
     
 }
 input{
     height: 50px;
     background-color: #212121;
-    border: 2px #fafafa3f solid;
+    border: 2px #fafafa solid;
     width: 100%;
     padding: 4px;
     outline:none

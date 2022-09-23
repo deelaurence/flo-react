@@ -9,7 +9,7 @@ const WhoIsFlo = () => {
       className="bg-lightShade px-6 md:pl-16 relative text-darkShade flex flex-col"
     >
       <div
-        className="mt-16 self-center overflow-y-hidden md:absolute md:top-[30%] md:right-[10%] justify-self-center"
+        className="mt-20 self-center overflow-y-hidden md:absolute md:top-[30%] md:right-[10%] justify-self-center"
       >
         <h2
           className="text-3xl whitespace-nowrap overflow-visible font-semibold md:text-4xl md:font-bold"

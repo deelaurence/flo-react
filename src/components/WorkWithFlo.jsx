@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkWithFlo = () => {
   return (
- <section className="bg-darkShade py-16 px-6 text-lightShade">
+ <section className="bg-darkShade py-20 px-6 text-lightShade">
       <div className="bg-darkShade my-6">
         <h3 className="text-center text-3xl font-semibold">Work with Flo</h3>
       </div>

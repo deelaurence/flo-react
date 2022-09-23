@@ -8,13 +8,13 @@ const Skills = () => {
   return (
      <section className="text-darkShade py-20 bg-lightShade">
       <div>
-        <h3 className="text-3xl font-semibold text-center">Flo's Special Skills.</h3>
+        <h3 className="text-3xl font-semibold text-center">Flo's Special Skills</h3>
       </div>
       <div>
         <p className="font-medium text-[0.9rem] px-2 mb-10 mt-6 text-center">
           For the purpose of creating interactive <br />
           and accessible products, Flo engages <br />
-          these skills
+          these skills.
         </p>
       </div>
       <div className="flex justify-center  mt-3 flex-wrap gap-4">
