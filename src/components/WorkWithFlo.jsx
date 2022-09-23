@@ -8,15 +8,15 @@ const WorkWithFlo = () => {
       </div>
       <div>
         <form className="flex flex-col items-center" action="">
-          <label className="font-semibold mt-10 mb-3 " htmlFor="Name">Your Name
-          <br /><input className="rounded-[8px] mt-3" type="text" name="" id="" />
+          <label className="font-semibold  mt-10 mb-3 " htmlFor="Name">Your Name
+          <br /><input className="rounded-[8px] pl-4 mt-3" type="text" name="" id="" />
           </label>
             
           
           <br />
           <label className="font-semibold " htmlFor="email">Email address
           
-          <br /> <input type="email" className="rounded-[8px] mt-3" name="" id="" />
+          <br /> <input type="email" className="rounded-[8px] mt-3 pl-4" name="" id="" />
           </label><br />
           <textarea
             placeholder="Type a message..."
