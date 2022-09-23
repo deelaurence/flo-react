@@ -26,7 +26,7 @@ const WorkWithFlo = () => {
             cols="30"
             rows="10"/>
           <button
-            className="my-12 border-[1px] h-14  font-semibold text-[#fafafac2] w-56  border-[#fafafac8] py-3 px-16 rounded-md">
+            className="my-12 border-[1px] h-14  font-semibold text-[#fafafa] w-56  border-[#fafafa] py-3 px-16 rounded-md">
             Submit
           </button>
         </form>
