@@ -11,7 +11,7 @@ const Skills = () => {
         <h3 className="text-3xl font-semibold text-center">Flo's Special Skills</h3>
       </div>
       <div>
-        <p className="font-medium text-[0.9rem] px-2 my-10 text-center">
+        <p className="font-medium text-[0.9rem] px-2 mb-10 mt-6 text-center">
           For the purpose of creating interactive <br />
           and accessible products. Flo engages <br />
           these skills
