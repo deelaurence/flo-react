@@ -1,24 +1,23 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import WhoIsFlo from './components/WhoIsFlo'
-import Portfolio from './components/Portfolio'
-import Skills from './components/Skills'
-import WorkWithFlo from './components/WorkWithFlo'
-import Footer from './components/Footer'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LANDING from './components/LANDING'
+import PORTFOLIOPAGE from './components/PORTFOLIOPAGE'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <WhoIsFlo/>
-    <Portfolio/>
-    <Skills/>
-    <WorkWithFlo/>
-    <Footer/>
-    </>
+    <Router>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LANDING />}/>
+        <Route path="/portfolio" element={<PORTFOLIOPAGE />} />
+      </Routes>
+      <Footer/>
+    </div>
+    </Router>
   )
 }
 

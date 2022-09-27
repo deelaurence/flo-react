@@ -47,7 +47,7 @@ const WhoIsFlo = () => {
         <img
           className="h-6 ml-4 translate-y-0.5"
           src={download}
-          border
+        
           alt="download"
         />
       </div>
