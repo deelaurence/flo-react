@@ -8,12 +8,13 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 function App() {
   return (
+    
     <Router>
     <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<LANDING />}/>
-        <Route path="/#/portfolio" element={<PORTFOLIOPAGE />} />
+        <Route path="/portfolio" element={<PORTFOLIOPAGE />} />
       </Routes>
       <Footer/>
     </div>
