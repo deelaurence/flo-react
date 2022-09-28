@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LANDING from './components/LANDING'
 import PORTFOLIOPAGE from './components/PORTFOLIOPAGE'
 import Navbar from './components/Navbar';
