@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LANDING />}/>
-        <Route path="/portfolio" element={<PORTFOLIOPAGE />} />
+        <Route path="/#/portfolio" element={<PORTFOLIOPAGE />} />
       </Routes>
       <Footer/>
     </div>

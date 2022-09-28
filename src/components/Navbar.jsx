@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
         </Link>
       <div className="md:hidden flex flex-col gap-1 self-end font-[500]">
-      <p className='text-sm text-[#fafafab9]' ><Link to='/portfolio'>menu</Link></p>
+      <p className='text-sm text-[#fafafab9]' ><Link to='/#/portfolio'>menu</Link></p>
       </div>
     </nav>
 
