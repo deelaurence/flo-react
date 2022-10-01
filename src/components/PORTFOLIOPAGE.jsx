@@ -60,7 +60,7 @@ const PORTFOLIOPAGE = () => {
                                 <h3 className='font-semibold text-[1rem]' >
                                     KodeTech
                                 </h3>
-                                <p className='text-[.5rem]'>
+                                <p className='font-[500] text-[.5rem]'>
                                     An E-Commerce website
                                 </p>
                             </div>
@@ -74,7 +74,7 @@ const PORTFOLIOPAGE = () => {
                                 <img className='h-full' src={rectangle} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden button'>
-                                <div className='flex gap-3'>
+                                <div className='flex gap-3 font-[500]'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
