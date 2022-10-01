@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: monteserrat;
     src: url(/font/static/Montserrat-Black.ttf) format("truetype");
     font-weight: 900;
@@ -39,10 +39,10 @@
     src: url(/font/static/Montserrat-Light.ttf) format("truetype");
     font-weight: 300;
     font-style: normal;
-}
+} */
 * {
     overflow-x: hidden;
-    font-family: monteserrat;
+    font-family: montserrat;
     box-sizing: border-box;
     
 }
