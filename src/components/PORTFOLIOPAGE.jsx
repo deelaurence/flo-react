@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkWithFlo from './WorkWithFlo'
+import WorkWithFloForPortfolio from './WorkWithFloForPortfolio'
 import largest from "./images/largest.png"
 import box1 from "./images/box1.png"
 import box2 from "./images/box2.png"
@@ -56,7 +56,7 @@ const PORTFOLIOPAGE = () => {
                             <div className='overflow-hidden largest'>
                                 <img src={largest} alt="kodetech" />
                             </div>
-                            <div className='header '>
+                            <div className='header'>
                                 <h3 className='font-semibold text-[1rem]' >
                                     KodeTech
                                 </h3>
@@ -80,7 +80,7 @@ const PORTFOLIOPAGE = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-16 grid-container-femmina'>
+                        <div className='mt-20 grid-container-femmina'>
                             <div className=' fem-img1'>
                                 <img src={femImg1} className='h-full' alt="kodetech" />
                             </div>
@@ -88,7 +88,7 @@ const PORTFOLIOPAGE = () => {
                                 <h3 className='font-semibold text-[1rem]' >
                                     Femmina
                                 </h3>
-                                <p className='text-[.5rem]'>
+                                <p className='text-[.5rem] font-[500]'>
                                     A Femtech app
                                 </p>
                             </div>
@@ -99,13 +99,13 @@ const PORTFOLIOPAGE = () => {
                                 <img className='h-full' src={femImg3} alt="kodetech3" />
                             </div>
                             <div className='text-[.5rem] self-center pb-8 overflow-hidden fem-button'>
-                                <div className='flex gap-3'>
+                                <div className='flex gap-3 font-[500]'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-16 grid-container-dexchange'>
+                        <div className='mt-20 grid-container-dexchange'>
                             <div className='overflow-hidden dx-largest'>
                                 <img src={dxLargest} alt="kodetech" />
                             </div>
@@ -113,7 +113,7 @@ const PORTFOLIOPAGE = () => {
                                 <h3 className=' font-semibold text-[1rem]' >
                                     D-Exchange
                                 </h3>
-                                <p className='text-[.5rem]'>
+                                <p className='font-[500] text-[.5rem]'>
                                     A Liquidity pool design
                                 </p>
                             </div>
@@ -127,13 +127,13 @@ const PORTFOLIOPAGE = () => {
                                 <img className='h-full' src={dxRectangle} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden dx-button'>
-                                <div className='flex float-right gap-3'>
+                                <div className='font-[500] flex float-right gap-3'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-16 grid-container-splita'>
+                        <div className='mt-20 grid-container-splita'>
                             <div className=' spl-img1 pt-1'>
                                 <img src={splImg1} className='h-full' alt="kodetech" />
                             </div>
@@ -141,7 +141,7 @@ const PORTFOLIOPAGE = () => {
                                 <h3 className='font-semibold text-[1rem]' >
                                     Splita
                                 </h3>
-                                <p className='text-[.5rem]'>
+                                <p className='text-[.5rem] font-[500]'>
                                     A JSON and CSV Chunking platform
                                 </p>
                             </div>
@@ -152,13 +152,13 @@ const PORTFOLIOPAGE = () => {
                                 <img className='h-full' src={splImg3} alt="kodetech3" />
                             </div>
                             <div className='text-[.5rem] self-center   overflow-hidden spl-button'>
-                                <div className='flex gap-3 '>
+                                <div className='flex gap-3 font-[500]'>
                                     <p className=''>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-16 grid-container'>
+                        <div className='mt-20 grid-container'>
                             <div className='overflow-hidden largest'>
                                 <img src={shpLargest} alt="kodetech" />
                             </div>
@@ -166,7 +166,7 @@ const PORTFOLIOPAGE = () => {
                                 <h3 className='font-semibold text-[1rem]' >
                                     Shoptacle
                                 </h3>
-                                <p className='text-[.5rem]'>
+                                <p className='text-[.5rem] font-[500]'>
                                     A Luxury Clothing webstore
                                 </p>
                             </div>
@@ -180,7 +180,7 @@ const PORTFOLIOPAGE = () => {
                                 <img className='h-full' src={shpRectangle} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden button'>
-                                <div className='flex gap-3'>
+                                <div className='flex gap-3 font-[500]'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
@@ -189,7 +189,7 @@ const PORTFOLIOPAGE = () => {
                     </div>
                 </section>
             </main>
-            <WorkWithFlo />
+            <WorkWithFloForPortfolio />
         </>
     )
 }
