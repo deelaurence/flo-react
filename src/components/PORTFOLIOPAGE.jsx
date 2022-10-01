@@ -47,7 +47,7 @@ const PORTFOLIOPAGE = () => {
                 </section>
                 <section className='mt-20 text-[1.5rem]'>
                     <div>
-                        <h3 className='text-center font-semibold'>
+                        <h3 className='text-center text-[1.3rem] font-semibold'>
                             Selected Projects
                         </h3>
                     </div>
