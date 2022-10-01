@@ -25,17 +25,17 @@ const PORTFOLIOPAGE = () => {
             <main className="px-6 md:px-16 pt-20   relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
                 <section className='relative pb-40'>
                     <div>
-                        <h1 className="text-4xl font-semibold md:text-5xl">
+                        <h1 className="text-3xl font-semibold md:text-5xl">
                             Work
                         </h1>
 
                     </div>
-                    <div className='text-[.8rem] font-semibold leading-7 mt-14'>
-                        <p>I focus on using end-to-end
-                            <span className='block' > Product Design to create products that can</span>
-                            <span className='block'>offer users a seamless interaction experience</span>
-                            <span className='block'>with the aid of visual design, interaction</span>
-                            <span className='block'>design, and prototyping.</span>
+                    <div className='text-[.8rem] font-[400]  text-[#fafafab9] leading-7 mt-8'>
+                        <p>I focus on using end-to-end Product Design
+                            <span className='block' >to create products that can offer users a</span>
+                            <span className='block'>seamless interaction experience with the aid</span>
+                            <span className='block'>of visual design, interaction design,</span>
+                            <span className='block'> and prototyping.</span>
                             <br />
                             <span className='block'>Products for industries like web3, blockchain,</span>
                             <span className='block'>Femtech, e-commerce, and enterprise.</span>
