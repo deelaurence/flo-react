@@ -30,7 +30,7 @@ const PORTFOLIOPAGE = () => {
                         </h1>
 
                     </div>
-                    <div className='text-[.8rem] font-[500]  text-[#fafafab9] leading-7 mt-8'>
+                    <div className='text-[.83rem] font-[500]  text-[#fafafab9] leading-7 mt-8'>
                         <p>I focus on using end-to-end Product Design
                             <span className='block' >to create products that can offer users a</span>
                             <span className='block'>seamless interaction experience with the </span>
