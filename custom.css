@@ -117,7 +117,7 @@ label {
 }
 
 .grid-container {
-    /* height: 35vh; */
+    height: 35vh;
     /* border-bottom: 1px solid white; */
     display: grid;
     position: relative;
