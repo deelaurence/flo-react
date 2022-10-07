@@ -199,7 +199,7 @@ label {
 }
 
 .grid-container-femmina {
-    /* height: 35vh; */
+    height: 35vh;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -243,7 +243,7 @@ label {
 }
 
 .grid-container-dexchange {
-    /* height: 35vh; */
+    height: 35vh;
 
     display: grid;
     gap: 10px;
@@ -283,7 +283,7 @@ label {
 }
 
 .grid-container-splita {
-    /* height: 35vh; */
+    height: 35vh;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
