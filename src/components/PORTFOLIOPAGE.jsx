@@ -70,7 +70,7 @@ const PORTFOLIOPAGE = () => {
                     {/* popup */}
                     {/* popup */}
                     {/* popup */}
-                    <div onClick={handleDecrease} className={pop ? "popup fixed bg-[rgba(0,0,0,.87)] top-0 left-0 z-10  h-screen w-screen" : "hidden"}>
+                    <div onClick={handleDecrease} className={pop ? "popup fixed bg-[rgba(0,0,0,.95)] top-0 left-0 z-10  h-screen w-screen" : "hidden"}>
                         <img src={popupImg} className='relative top-1/2 left-1/2 max-h-[95%] min-w-[80%] -translate-x-1/2 -translate-y-1/2' alt="popup" />
                     </div>
                     {/* popup */}
