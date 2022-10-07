@@ -152,6 +152,26 @@ label {
     /* transition: .3s; */
 }
 
+.grid-container-dexchange>div>img:hover {
+    scale: 1.1;
+    /* transition: .3s; */
+}
+
+.grid-container-femmina>div>img:hover {
+    scale: 1.1;
+    /* transition: .3s; */
+}
+
+.grid-container-splita>div>img:hover {
+    scale: 1.1;
+    /* transition: .3s; */
+}
+
+.grid-container>div>img:hover {
+    scale: 1.1;
+    /* transition: .3s; */
+}
+
 .header {
     grid-area: header;
 }
