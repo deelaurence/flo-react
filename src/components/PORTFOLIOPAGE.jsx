@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import WorkWithFloForPortfolio from './WorkWithFloForPortfolio'
 import largest from "./images/largest.png"
 import box1 from "./images/box1.png"
@@ -20,6 +21,21 @@ import splImg1 from "./images/spl-img1.png"
 import splImg2 from "./images/spl-img2.png"
 import splImg3 from "./images/spl-img3.png"
 const PORTFOLIOPAGE = () => {
+    const [enlarge, setEnlarge] = useState(false)
+    const [delay, setDelay] = useState(false)
+    const [popupImg, setPopupImg] = useState(largest)
+    const [pop, setPop] = useState(false)
+    const handleEnlarge = (e) => {
+        // setPopupImg("")
+        setPop(!pop)
+        setPopupImg(e.target.src)
+        console.log(e.target.src)
+    }
+    const handleDecrease = (e) => {
+        // setPopupImg("")
+        setPop(!pop)
+        console.log(e.target)
+    }
     return (
         <>
             <main className="px-6 md:px-16 pt-20   relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
@@ -51,10 +67,20 @@ const PORTFOLIOPAGE = () => {
                             Selected Projects
                         </h3>
                     </div>
-                    <div className=' flex project-cont gap-12 flex-col'>
+                    {/* popup */}
+                    {/* popup */}
+                    {/* popup */}
+                    <div onClick={handleDecrease} className={pop ? "popup fixed bg-[rgba(0,0,0,.87)] top-0 left-0 z-10  h-screen w-screen" : "hidden"}>
+                        <img src={popupImg} className='relative top-1/2 left-1/2 max-h-[95%] min-w-[80%] -translate-x-1/2 -translate-y-1/2' alt="popup" />
+                    </div>
+                    {/* popup */}
+                    {/* popup */}
+                    {/* popup */}
+                    <div className=' flex project-cont gap-12 z-30 flex-col'>
                         <div className='mt-16 grid-container'>
-                            <div className='overflow-hidden largest'>
-                                <img src={largest} alt="kodetech" />
+                            <div className="largest" >
+                                <img src={largest} onClick={handleEnlarge} alt="kodetech"
+                                />
                             </div>
                             <div className='header'>
                                 <h3 className='font-semibold text-[1rem]' >
@@ -65,13 +91,13 @@ const PORTFOLIOPAGE = () => {
                                 </p>
                             </div>
                             <div className='box1' >
-                                <img src={box1} className='h-full' alt="kodetech2" />
+                                <img src={box1} onClick={handleEnlarge} className='h-full' alt="kodetech2" />
                             </div>
                             <div className='box2'>
-                                <img className='h-full' src={box2} alt="kodetech3" />
+                                <img className='h-full' onClick={handleEnlarge} src={box2} alt="kodetech3" />
                             </div>
                             <div className='rectangle' >
-                                <img className='h-full' src={rectangle} alt="kodetech" />
+                                <img className='h-full' onClick={handleEnlarge} src={rectangle} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden button'>
                                 <div className='flex gap-3 font-[500]'>
@@ -82,7 +108,7 @@ const PORTFOLIOPAGE = () => {
                         </div>
                         <div className='mt-20 grid-container-femmina'>
                             <div className=' fem-img1'>
-                                <img src={femImg1} className='h-full' alt="kodetech" />
+                                <img src={femImg1} onClick={handleEnlarge} className='h-full' alt="kodetech" />
                             </div>
                             <div className='fem-header '>
                                 <h3 className='font-semibold text-[1rem]' >
@@ -93,10 +119,10 @@ const PORTFOLIOPAGE = () => {
                                 </p>
                             </div>
                             <div className='fem-img2' >
-                                <img src={femImg2} className='h-full' alt="kodetech2" />
+                                <img src={femImg2} onClick={handleEnlarge} className='h-full' alt="kodetech2" />
                             </div>
                             <div className='fem-img3'>
-                                <img className='h-full' src={femImg3} alt="kodetech3" />
+                                <img className='h-full' src={femImg3} onClick={handleEnlarge} alt="kodetech3" />
                             </div>
                             <div className='text-[.5rem] self-center pb-8 overflow-hidden fem-button'>
                                 <div className='flex gap-3 font-[500]'>
@@ -107,7 +133,7 @@ const PORTFOLIOPAGE = () => {
                         </div>
                         <div className='mt-20 grid-container-dexchange'>
                             <div className='overflow-hidden dx-largest'>
-                                <img src={dxLargest} alt="kodetech" />
+                                <img src={dxLargest} onClick={handleEnlarge} alt="kodetech" />
                             </div>
                             <div className='dx-header justify-self-end  float-right'>
                                 <h3 className=' font-semibold text-[1rem]' >
@@ -118,13 +144,13 @@ const PORTFOLIOPAGE = () => {
                                 </p>
                             </div>
                             <div className='dx-box1' >
-                                <img src={dxBox1} className='h-full' alt="kodetech2" />
+                                <img src={dxBox1} onClick={handleEnlarge} className='h-full' alt="kodetech2" />
                             </div>
                             <div className='dx-box2'>
-                                <img className='h-full' src={dxBox2} alt="kodetech3" />
+                                <img className='h-full' onClick={handleEnlarge} src={dxBox2} alt="kodetech3" />
                             </div>
                             <div className='dx-rectangle' >
-                                <img className='h-full' src={dxRectangle} alt="kodetech" />
+                                <img className='h-full' src={dxRectangle} onClick={handleEnlarge} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden dx-button'>
                                 <div className='font-[500] flex float-right gap-3'>
@@ -135,7 +161,7 @@ const PORTFOLIOPAGE = () => {
                         </div>
                         <div className='mt-20 grid-container-splita'>
                             <div className=' spl-img1 pt-1'>
-                                <img src={splImg1} className='h-full' alt="kodetech" />
+                                <img src={splImg1} onClick={handleEnlarge} className='h-full' alt="kodetech" />
                             </div>
                             <div className='spl-header '>
                                 <h3 className='font-semibold text-[1rem]' >
@@ -146,10 +172,10 @@ const PORTFOLIOPAGE = () => {
                                 </p>
                             </div>
                             <div className='spl-img2' >
-                                <img src={splImg2} className='h-full' alt="kodetech2" />
+                                <img src={splImg2} className='h-full' onClick={handleEnlarge} alt="kodetech2" />
                             </div>
                             <div className='spl-img3'>
-                                <img className='h-full' src={splImg3} alt="kodetech3" />
+                                <img className='h-full' src={splImg3} onClick={handleEnlarge} alt="kodetech3" />
                             </div>
                             <div className='text-[.5rem] self-center   overflow-hidden spl-button'>
                                 <div className='flex gap-3 font-[500]'>
@@ -160,7 +186,7 @@ const PORTFOLIOPAGE = () => {
                         </div>
                         <div className='mt-20 grid-container'>
                             <div className='overflow-hidden largest'>
-                                <img src={shpLargest} alt="kodetech" />
+                                <img onClick={handleEnlarge} src={shpLargest} alt="kodetech" />
                             </div>
                             <div className='header '>
                                 <h3 className='font-semibold text-[1rem]' >
@@ -171,13 +197,13 @@ const PORTFOLIOPAGE = () => {
                                 </p>
                             </div>
                             <div className='box1' >
-                                <img src={shpBox1} className='h-full' alt="kodetech2" />
+                                <img src={shpBox1} onClick={handleEnlarge} className='h-full' alt="kodetech2" />
                             </div>
                             <div className='box2'>
-                                <img className='h-full' src={shpBox2} alt="kodetech3" />
+                                <img className='h-full' onClick={handleEnlarge} src={shpBox2} alt="kodetech3" />
                             </div>
                             <div className='rectangle' >
-                                <img className='h-full' src={shpRectangle} alt="kodetech" />
+                                <img className='h-full' onClick={handleEnlarge} src={shpRectangle} alt="kodetech" />
                             </div>
                             <div className='text-[.5rem] overflow-hidden button'>
                                 <div className='flex gap-3 font-[500]'>
