@@ -117,7 +117,8 @@ label {
 }
 
 .grid-container {
-    height: 35vh;
+    height: 86vw;
+    width: 86vw;
     /* border-bottom: 1px solid white; */
     display: grid;
     position: relative;
@@ -128,8 +129,7 @@ label {
         "largest header header"
         "largest box1 rectangle"
         "largest box2 rectangle"
-        "largest button button"
-    ;
+        "largest button button";
 
 }
 
@@ -199,7 +199,8 @@ label {
 }
 
 .grid-container-femmina {
-    height: 35vh;
+    height: 86vw;
+    width: 86vw;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -243,8 +244,8 @@ label {
 }
 
 .grid-container-dexchange {
-    height: 35vh;
-
+    height: 86vw;
+    width: 86vw;
     display: grid;
     gap: 10px;
     grid-template-columns: 2fr 2fr 3fr;
