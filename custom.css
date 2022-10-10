@@ -146,7 +146,9 @@ label {
     transition: .3s;
     /* outline: 1px solid white; */
 }
-
+.grid-container>div>img{
+    object-cover:fit;
+}
 .grid-container>div>img:hover {
     scale: 1.1;
     /* transition: .3s; */
