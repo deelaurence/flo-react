@@ -147,7 +147,7 @@ label {
     /* outline: 1px solid white; */
 }
 .grid-container>div>img{
-    object-cover:fit;
+    object-fit:cover;
 }
 .grid-container>div>img:hover {
     scale: 1.1;
