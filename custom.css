@@ -147,13 +147,14 @@ label {
     transition: .3s;
     /* outline: 1px solid white; */
 }
+
 .grid-container>div>img,
 .grid-container-femmina>div>img,
 .grid-container-dexchange>div>img,
-.grid-container-splita>div>img
-{
-    object-fit:cover;
+.grid-container-splita>div>img {
+    object-fit: cover;
 }
+
 .grid-container>div>img:hover {
     scale: 1.1;
     /* transition: .3s; */
@@ -273,6 +274,11 @@ label {
         "dx-button dx-button dx-largest"
     ;
 
+}
+
+.grid-container-dexchange>div,
+.grid-container-splita>div {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
 }
 
 .dx-largest {
