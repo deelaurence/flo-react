@@ -108,7 +108,7 @@ const PORTFOLIOPAGE = () => {
                         </div>
                         <div className='mt-20 grid-container-femmina'>
                             <div className=' fem-img1'>
-                                <img src={femImg1} onClick={handleEnlarge} className='h-full' alt="kodetech" />
+                                <img src={femImg1} onClick={handleEnlarge} className='h-full object-cover' alt="kodetech" />
                             </div>
                             <div className='fem-header '>
                                 <h3 className='font-semibold text-[1rem]' >
