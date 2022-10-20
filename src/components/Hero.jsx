@@ -3,7 +3,7 @@ import heroImage from "./images/IMG_1035 2.png"
 import github from "./images/bi_github.png"
 import message from "./images/ep_message.png"
 import behance from "./images/akar-icons_behance-fill.png"
-import  linkedIn from "./images/akar-icons_linkedin-v2-fill.png"
+import linkedIn from "./images/akar-icons_linkedin-v2-fill.png"
 import twitter from "./images/akar-icons_twitter-fill.png"
 const Hero = () => {
   return (
@@ -15,8 +15,7 @@ const Hero = () => {
         Incepto Ne Desistam.
         <span
           className="block mt-4 leading-none overflow-hidden text-[1.1rem] pb-4 font-bold"
-          >May I not shrink from<br />my purpose.</span
-        >
+        >May I not shrink from<br />my purpose.</span>
       </p>
       <div className="lg:self-center">
         <h1
@@ -47,7 +46,7 @@ const Hero = () => {
         className="seperator absolute bottom-20 -translate-x-1/2 left-1/2 h-14 w-[1.5px] bg-lightShade"
       ></div>
     </section>
-  )  
- }
+  )
+}
 
 export default Hero

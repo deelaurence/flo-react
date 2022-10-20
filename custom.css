@@ -116,11 +116,17 @@ label {
     /* outline: 1px solid white; */
 }
 
+/* * {
+    outline: red 1px solid;
+} */
+
 .grid-container {
-    height: 86vw;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    height: 68vw;
     width: 86vw;
-    /* border-bottom: 1px solid white; */
+    max-height: 400px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     position: relative;
     gap: 10px;
@@ -202,14 +208,20 @@ label {
 
 .grid-container>div {
     overflow: hidden;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193); */
     /* background-color: #fafafa; */
     /* min-height: 2rem; */
 }
 
+/* * {
+    outline: red 1px solid;
+} */
+
 .grid-container-femmina {
-    height: 86vw;
+    height: 68vw;
     width: 86vw;
+    max-height: 400px;
+    max-width: 500px;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.155); */
     /* border-top: 1px solid rgba(255, 255, 255, 0.25); */
     background: #fafafa02;
@@ -217,6 +229,8 @@ label {
     /* border-radius: 50px; */
     /* padding: 10px; */
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -253,18 +267,22 @@ label {
 
 .grid-container-femmina>div {
     overflow: hidden;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193); */
     /* border: solid 1px white; */
     /* background-color: #fafafa; */
     /* min-height: 2rem; */
 }
 
 .grid-container-dexchange {
-    height: 86vw;
+    height: 60vw;
     width: 86vw;
+    max-height: 350px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193); */
     grid-template-columns: 2fr 2fr 3fr;
     grid-auto-rows: 2fr 4fr 4fr 1fr;
     grid-template-areas:
@@ -276,10 +294,10 @@ label {
 
 }
 
-.grid-container-dexchange>div,
+/* .grid-container-dexchange>div,
 .grid-container-splita>div {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
-}
+} */
 
 .dx-largest {
     grid-area: dx-largest;
@@ -306,10 +324,15 @@ label {
 }
 
 .grid-container-splita {
-    height: 35vh;
+    height: 60vw;
+    width: 86vw;
+    max-height: 380px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193); */
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: repeat(11, 1fr);
     grid-template-areas:
