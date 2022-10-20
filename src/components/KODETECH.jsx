@@ -1,6 +1,6 @@
 import React from 'react'
 import WorkWithFlo from './WorkWithFloForPortfolio'
-import kodeTechCofee from './images/kodeTechCofee.png'
+import kodeTechCofee from './images/kodetechCofee.png'
 
 const KODETECH = () => {
     return (
