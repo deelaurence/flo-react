@@ -103,15 +103,15 @@ const PORTFOLIOPAGE = () => {
                             <div className='dx-rectangle' >
                                 <img className='h-full' src={gldRectangle} onClick={handleEnlarge} alt="kodetech" />
                             </div>
-                            <div className='text-[.5rem] overflow-hidden dx-button'>
-                                <div className='font-[500]  flex gap-3'>
-                                    <p className='ml-[52%] ' >View Project</p>
-                                    <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
+                            <div className='text-[.5rem]  overflow-hidden relative dx-button  '>
+                                <div className='font-[500]  items-center absolute bottom-0 w-full flex gap-3'>
+                                    <p className='ml-[53%] ' >View Project</p>
+                                    <img src={arrow} className='h-[6.5px] ' alt="arrow-icon" />
                                 </div>
                             </div>
                         </div>
                         <div className='mt-16 grid-container'>
-                            <div className="largest bg-white" >
+                            <div className="largest mt-[6px] bg-white" >
                                 <img className='' src={largest} onClick={handleEnlarge} alt="kodetech"
                                 />
                             </div>
@@ -132,10 +132,10 @@ const PORTFOLIOPAGE = () => {
                             <div className='rectangle' >
                                 <img className='w-full' onClick={handleEnlarge} src={rectangle} alt="kodetech" />
                             </div>
-                            <div className='text-[.5rem] overflow-hidden items-end button flex'>
+                            <div className='text-[.5rem] overflow-hidden  button flex items-end'>
                                 <Link to="/portfolio/kodetech">
-                                    <div className='flex gap-3 justify-end  font-[500]'>
-                                        <p>View Project</p>
+                                    <div className='flex gap-3   font-[500]'>
+                                        <p className=''>View Project</p>
                                         <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                     </div>
                                 </Link>
@@ -145,7 +145,7 @@ const PORTFOLIOPAGE = () => {
                             <div className=' fem-img1'>
                                 <img src={femImg1} onClick={handleEnlarge} className='w-full object-cover' alt="kodetech" />
                             </div>
-                            <div className='fem-header '>
+                            <div className='fem-header -mt-1'>
                                 <h3 className='font-semibold text-[1rem]' >
                                     Femmina
                                 </h3>
@@ -160,7 +160,7 @@ const PORTFOLIOPAGE = () => {
                                 <img className='w-full' src={femImg3} onClick={handleEnlarge} alt="kodetech3" />
                             </div>
                             <div className='text-[.5rem] self-center pb-8 overflow-hidden fem-button'>
-                                <div className='flex gap-3 font-[500]'>
+                                <div className='flex gap-3 mt-3 font-[500]'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>
@@ -171,7 +171,7 @@ const PORTFOLIOPAGE = () => {
                                 <img src={dxLargest} onClick={handleEnlarge} alt="kodetech" />
                             </div>
                             <div className='dx-header justify-self-end  float-right'>
-                                <h3 className=' font-semibold text-[1rem]' >
+                                <h3 className='-mt-1 font-semibold text-[1rem]' >
                                     D-Exchange
                                 </h3>
                                 <p className='font-[500] text-[.5rem]'>
@@ -187,8 +187,8 @@ const PORTFOLIOPAGE = () => {
                             <div className='dx-rectangle' >
                                 <img className='h-full' src={dxRectangle} onClick={handleEnlarge} alt="kodetech" />
                             </div>
-                            <div className='text-[.5rem] overflow-hidden dx-button'>
-                                <div className='font-[500] flex float-right gap-3'>
+                            <div className='text-[.5rem] overflow-hidden flex items-end dx-button'>
+                                <div className='font-[500] flex ml-[53%]  gap-3'>
                                     <p>View Project</p>
                                     <img src={arrow} className='h-[6.5px] self-center' alt="arrow-icon" />
                                 </div>

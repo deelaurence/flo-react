@@ -9,7 +9,7 @@ const KODETECH = () => {
                 <section className='px-2 relative pb-40'>
                     <div>
                         <h1 className="text-[1.6rem] font-semibold md:text-5xl">
-                            KodeTech: An <br /> Ecommerce Website
+                            KodeTech: An <br /> E-Commerce Website
                         </h1>
                     </div>
                     <div className='text-[.83rem] font-[500]  text-[#fafafab9] leading-7 mt-16'>
@@ -24,16 +24,16 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Overview
                         </h3>
-                        <article className='text-[.8rem] leading-7 font-[500] text-[#fafafab9]'>
-                            KodeTech is an e-commerce website that <br />
-                            was created to help the company expand <br />
-                            their brand while allowing them connect <br />
-                            with their users and effectively market their <br />
-                            tech gadget products. <br />
-                            On this platform, users are able to easily <br />
-                            interact with the website and have an <br />
-                            experience that is user-friendly while <br />
-                            performing their primary tasks of placing <br />
+                        <article className='text-[.8rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                            KodeTech is an e-commerce website that
+                            was created to help the company expand
+                            their brand while allowing them connect
+                            with their users and effectively market their
+                            tech gadget products.
+                            On this platform, users are able to easily
+                            interact with the website and have an
+                            experience that is user-friendly while
+                            performing their primary tasks of placing
                             orders.
                         </article>
                     </div>
