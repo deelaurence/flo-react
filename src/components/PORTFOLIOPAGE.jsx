@@ -249,8 +249,8 @@ const PORTFOLIOPAGE = () => {
                         </div> */}
                     </div>
                 </section>
+                <WorkWithFloForPortfolio />
             </main>
-            <WorkWithFloForPortfolio />
         </>
     )
 }

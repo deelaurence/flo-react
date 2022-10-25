@@ -83,7 +83,6 @@ textarea {
 
 label {
     width: 95%;
-    padding: 2px;
     color: #fafafac8;
 
 
@@ -107,8 +106,6 @@ textarea:focus {
 
 label {
     text-align: left;
-    justify-self: start;
-    align-self: flex-start;
     margin-left: 6px;
 }
 
@@ -336,6 +333,7 @@ label {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: repeat(11, 1fr);
     grid-template-areas:
+        "spl-header spl-header ."
         "spl-header spl-header ."
         "spl-img1 . spl-img3"
         "spl-img1 spl-img2 spl-img3"
