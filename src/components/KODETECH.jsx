@@ -58,11 +58,11 @@ const KODETECH = () => {
                             KodeTech: An <br /> E-Commerce Website
                         </h1>
                     </div>
-                    <div className='text-[1rem] font-[500]  text-[#fafafab9] leading-7 mt-16'>
+                    <div className='text-[0.9rem] font-[500]  text-[#fafafab9] leading-7 mt-16'>
                         <p>Role:</p>
                         <p className='font-[600] text-white'>Product Designer</p>
                     </div>
-                    <div className='text-[1rem] font-[500]  text-[#fafafab9] leading-7 mt-10'>
+                    <div className='text-[0.9rem] font-[500]  text-[#fafafab9] leading-7 mt-10'>
                         <p>Length:</p>
                         <p className='font-[600] text-white'>3 weeks</p>
                     </div>
@@ -70,7 +70,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Overview
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             KodeTech is an e-commerce website that
                             was created to help the company expand
                             their brand while allowing them connect
@@ -90,7 +90,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             The Challenge
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             As a Nigerian-Tech brand, KodeTech is
                             interested in bridging the communication
                             gap through the utilization of technology
@@ -106,7 +106,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             User Research
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             To gain a general understanding of the
                             target users that would be interested in
                             interacting with the KodeTech brand,
@@ -121,7 +121,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Findings
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             From the research, it was observed that the
                             target users were inclined to carry out online
                             purchases, however, they complained of
@@ -137,7 +137,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Solution:defining goals
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             After understanding the challenges faced
                             by the users and taking into consideration
                             the core objective of the brand, goals were
@@ -154,7 +154,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Understanding the target audience:User persona
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             In the creation of this product, the
                             target group that was focused on made
                             up the majority of the KodeTech product
@@ -169,7 +169,7 @@ const KODETECH = () => {
                     <div className='mt-16'>
                         <img src={userPersona} alt="" />
                     </div>
-                    <article className='text-[1rem] mt-6 leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                    <article className='text-[0.9rem] mt-6 leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                         After this, the information architecture and
                         task flows were designed.
                     </article>
@@ -177,7 +177,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Information architecture
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             For a product such as this, it was imperative
                             that every action taken by the users would be
                             seamless as a result of the presence of an
@@ -208,7 +208,7 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Desktop design
                         </h3>
-                        <article className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             The design of the platform was created to cater
                             for the needs of the users, and for the purpose
                             of proper management, the admin role was
@@ -246,28 +246,28 @@ const KODETECH = () => {
                         <h3 className='mb-8'>
                             Have a go!
                         </h3>
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             View the user's prototype <span className='text-white font-[700]' >here</span>
                         </p>
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             View the admin prototype <span className='text-white font-[700]' >here</span>
                         </p>
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             View the mobile prototype <span className='text-white font-[700]' >here</span>
                         </p>
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             Explore live website <span className='text-white font-[700]' >here</span>
                         </p>
 
                     </div>
                     <div className='flex gap-2 items-center mt-12 '>
                         <img className='h-4' src={prev} alt="" srcset="" />
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%]  text-[#fafafab9]'>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%]  text-[#fafafab9]'>
                             Previous
                         </p>
                     </div>
                     <div className='flex gap-2 items-center justify-end'>
-                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%]  '>
+                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%]  '>
                             Next
                         </p>
                         <img className='h-4' src={next} alt="" srcset="" />
