@@ -46,7 +46,7 @@ const PORTFOLIOPAGE = () => {
     }
     return (
         <>
-            <main className="px-6 md:px-16 pt-20   relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
+            <main className="portfolio px-6 md:px-16 pt-20  relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
                 <section className='relative pb-40'>
                     <div>
                         <h1 className="text-[1.6rem] font-semibold md:text-5xl">
