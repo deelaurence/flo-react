@@ -1,18 +1,19 @@
 import React from 'react'
 import { useState } from 'react'
 import WorkWithFloForPortfolio from './WorkWithFloForPortfolio'
+import gldLargest from "./images/gld-largest.png"
+import gldBox1 from "./images/gld-Box1.png"
+import gldBox2 from "./images/gld-Box2.png"
 import largest from "./images/largest.png"
 import box1 from "./images/box1.png"
 import box2 from "./images/box2.png"
 import rectangle from "./images/rectangle.png"
-import gldLargest from "./images/gld-largest.png"
-import gldBox1 from "./images/gld-Box1.png"
-import gldBox2 from "./images/gld-Box2.png"
 import gldRectangle from "./images/gld-rectangle.png"
 import dxLargest from "./images/dx-largest.png"
 import dxBox1 from "./images/dx-box1.png"
 import dxBox2 from "./images/dx-box2.png"
 import dxRectangle from "./images/dx-rectangle.png"
+
 // import spLargest from "./images/spl-largest.png"
 // import spBox1 from "./images/spl-box1.png"
 // import spBox2 from "./images/spl-box2.png"
@@ -25,10 +26,11 @@ import splImg1 from "./images/spl-img1.png"
 import splImg2 from "./images/spl-img2.png"
 import splImg3 from "./images/spl-img3.png"
 import { Link } from 'react-router-dom'
+import ClickIcon from './ClickIcon'
 const PORTFOLIOPAGE = () => {
     const [enlarge, setEnlarge] = useState(false)
     const [delay, setDelay] = useState(false)
-    const [popupImg, setPopupImg] = useState(largest)
+    const [popupImg, setPopupImg] = useState(gldLargest)
     const [pop, setPop] = useState(false)
     const handleEnlarge = (e) => {
         // setPopupImg("")
@@ -81,10 +83,11 @@ const PORTFOLIOPAGE = () => {
                     {/* popup */}
                     {/* popup */}
                     {/* popup */}
-                    <div className=' flex project-cont gap-12 z-30 flex-col'>
-                        <div className='mt-20 grid-container-dexchange'>
-                            <div className='overflow-hidden dx-largest'>
+                    <div className=' flex project-cont   gap-12  flex-col'>
+                        <div className='mt-20 relative grid-container-dexchange'>
+                            <div className='relative overflow-hidden dx-largest'>
                                 <img src={gldLargest} onClick={handleEnlarge} alt="kodetech" />
+                                <ClickIcon enlarge={handleEnlarge} />
                             </div>
                             <div className='dx-header justify-self-end  float-right'>
                                 <h3 className='text-right font-semibold text-[1rem]' >
@@ -94,14 +97,17 @@ const PORTFOLIOPAGE = () => {
                                     A web3 Community platform
                                 </p>
                             </div>
-                            <div className='dx-box1' >
+                            <div className='relative dx-box1' >
                                 <img src={gldBox1} onClick={handleEnlarge} className='h-full' alt="kodetech2" />
+                                {/* <ClickIcon /> */}
                             </div>
-                            <div className='dx-box2'>
+                            <div className=' relative dx-box2'>
                                 <img className='h-full' onClick={handleEnlarge} src={gldBox2} alt="kodetech3" />
+                                {/* <ClickIcon /> */}
                             </div>
-                            <div className='dx-rectangle' >
+                            <div className='relative dx-rectangle' >
                                 <img className='h-full' src={gldRectangle} onClick={handleEnlarge} alt="kodetech" />
+                                {/* <ClickIcon /> */}
                             </div>
                             <div className='text-[.5rem]  overflow-hidden relative dx-button  '>
                                 <div className='font-[500]  items-center absolute bottom-0 w-full flex gap-3'>
@@ -110,7 +116,8 @@ const PORTFOLIOPAGE = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-16 grid-container'>
+                        <div className='mt-16 relative grid-container'>
+                            {/* <ClickIcon /> */}
                             <div className="largest mt-[6px] bg-white" >
                                 <img className='' src={largest} onClick={handleEnlarge} alt="kodetech"
                                 />

@@ -378,3 +378,28 @@ label {
 .textarea::placeholder {
     color: #fafafa55;
 }
+
+* {
+    /* outline: solid 1px white; */
+}
+
+.click-icon {
+    /* background-color: rgba(257, 257, 257, 0.11); */
+    /* border-radius: 50%; */
+    /* padding: 4px; */
+    /* color: rgb(81, 70, 49); */
+    animation: click 1s alternate infinite;
+
+}
+
+@keyframes click {
+    from {
+        /* width: 50px; */
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1);
+        /* width: 40px; */
+    }
+}
