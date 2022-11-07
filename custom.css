@@ -380,6 +380,11 @@ label {
     color: #fafafa55;
 }
 
+html,
+body {
+    background: #212121;
+}
+
 * {
     border-radius: 5px
 }
