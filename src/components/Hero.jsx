@@ -5,6 +5,17 @@ import message from "./images/ep_message.png"
 import behance from "./images/akar-icons_behance-fill.png"
 import linkedIn from "./images/akar-icons_linkedin-v2-fill.png"
 import twitter from "./images/akar-icons_twitter-fill.png"
+
+import { BsChevronDoubleDown } from 'react-icons/bs'
+import { CgArrowLongDown } from 'react-icons/cg'
+import { TbBrightnessDown } from 'react-icons/tb'
+
+import { TbGridDots } from 'react-icons/tb'
+import { CiGrid42 } from 'react-icons/ci'
+// import { TbGridDots } from 'react-icons/cg'
+import { CgMenuGridO } from 'react-icons/cg'
+import { TfiLayoutGrid4 } from 'react-icons/tfi'
+import { GiBrightExplosion } from 'react-icons/gi'
 const Hero = () => {
   return (
     <section className="px-6 md:px-16 pt-20 pb-[22rem]  relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
@@ -43,8 +54,13 @@ const Hero = () => {
         ></div>
       </div>
       <div
-        className="seperator absolute bottom-20 -translate-x-1/2 left-1/2 h-14 w-[1.5px] bg-lightShade"
-      ></div>
+        className="seperator absolute bottom-20 rounded-full -translate-x-1/2 left-1/2 h-24  w-24 bg-[rgba(257,257,257,0.0)] "
+      >
+        {/* <CgMenuGridO className='w-24 h-24 pb-12' /> */}
+        {/* <TbGridDots className='w-12 h-12' /> */}
+        <CiGrid42 className='mx-auto w-12 h-12 mt-6' />
+        {/* <GiBrightExplosion className='mx-auto w-12 h-12 mt-6' /> */}
+      </div>
     </section>
   )
 }

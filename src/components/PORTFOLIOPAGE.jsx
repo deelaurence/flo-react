@@ -27,6 +27,7 @@ import splImg2 from "./images/spl-img2.png"
 import splImg3 from "./images/spl-img3.png"
 import { Link } from 'react-router-dom'
 import ClickIcon from './ClickIcon'
+import { CiGrid42 } from 'react-icons/ci'
 const PORTFOLIOPAGE = () => {
     const [enlarge, setEnlarge] = useState(false)
     const [delay, setDelay] = useState(false)
@@ -65,9 +66,13 @@ const PORTFOLIOPAGE = () => {
                         </p>
                     </div>
                     <div
-                        className="seperator absolute bottom-0  -translate-x-1/2 left-1/2 h-14 w-[1.5px] bg-lightShade"
-                    ></div>
-                </section>
+                        className="seperator absolute bottom-0 rounded-full -translate-x-1/2 left-1/2 h-24  w-24 bg-[rgba(257,257,257,0.0)] "
+                    >
+                        {/* <CgMenuGridO className='w-24 h-24 pb-12' /> */}
+                        {/* <TbGridDots className='w-12 h-12' /> */}
+                        <CiGrid42 className='mx-auto w-12 h-12 mt-6' />
+                        {/* <GiBrightExplosion className='mx-auto w-12 h-12 mt-6' /> */}
+                    </div>                </section>
                 <section className='mt-20 text-[1.5rem]'>
                     <div>
                         <h3 className='text-center text-[1.3rem] font-semibold'>
