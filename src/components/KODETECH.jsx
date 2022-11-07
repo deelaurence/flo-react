@@ -88,7 +88,7 @@ const KODETECH = () => {
                     </div>
                     <div className='text-[1.5rem] font-[600] mt-14'>
                         <h3 className='mb-8'>
-                            The Challenge
+                            The challenge
                         </h3>
                         <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             As a Nigerian-Tech brand, KodeTech is
@@ -135,7 +135,7 @@ const KODETECH = () => {
                     </div>
                     <div className='text-[1.5rem] font-[600] mt-14'>
                         <h3 className='mb-8'>
-                            Solution:defining goals
+                            Solution: defining goals
                         </h3>
                         <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             After understanding the challenges faced
@@ -152,7 +152,7 @@ const KODETECH = () => {
                     </div>
                     <div className='text-[1.5rem] font-[600] mt-14'>
                         <h3 className='mb-8'>
-                            Understanding the target audience:User persona
+                            Understanding the target audience: user persona
                         </h3>
                         <article className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             In the creation of this product, the
@@ -247,7 +247,7 @@ const KODETECH = () => {
                             Have a go!
                         </h3>
                         <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
-                            View the user's prototype <span className='text-white font-[700]' >here</span>
+                            View the users' prototype <span className='text-white font-[700]' >here</span>
                         </p>
                         <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%] text-[#fafafab9]'>
                             View the admin prototype <span className='text-white font-[700]' >here</span>
@@ -262,12 +262,12 @@ const KODETECH = () => {
                     </div>
                     <div className='flex gap-2 items-center mt-12 '>
                         <img className='h-4' src={prev} alt="" srcset="" />
-                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%]  text-[#fafafab9]'>
+                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%]  text-[#fafafab9]'>
                             Previous
                         </p>
                     </div>
                     <div className='flex gap-2 items-center justify-end'>
-                        <p className='text-[0.9rem] leading-7 font-[500] max-w-[90%]  '>
+                        <p className='text-[1rem] leading-7 font-[500] max-w-[90%]  '>
                             Next
                         </p>
                         <img className='h-4' src={next} alt="" srcset="" />
