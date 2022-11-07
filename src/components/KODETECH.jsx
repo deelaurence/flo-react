@@ -60,11 +60,11 @@ const KODETECH = () => {
                     </div>
                     <div className='text-[0.9rem] font-[500]  text-[#fafafab9] leading-7 mt-16'>
                         <p>Role:</p>
-                        <p className='font-[600] text-white'>Product Designer</p>
+                        <p className='font-[600] text-[1rem] text-white'>Product Designer</p>
                     </div>
                     <div className='text-[0.9rem] font-[500]  text-[#fafafab9] leading-7 mt-10'>
                         <p>Length:</p>
-                        <p className='font-[600] text-white'>3 weeks</p>
+                        <p className='font-[600] text-white text-[1rem]'>3 weeks</p>
                     </div>
                     <div className='text-[1.5rem] font-[600] mt-14'>
                         <h3 className='mb-8'>
