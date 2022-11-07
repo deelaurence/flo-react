@@ -86,7 +86,7 @@ const PORTFOLIOPAGE = () => {
                     <div className=' flex project-cont   gap-12  flex-col'>
                         <div className='mt-20 relative grid-container-dexchange'>
                             <div className='relative overflow-hidden dx-largest'>
-                                <img src={gldLargest} onClick={handleEnlarge} alt="kodetech" />
+                                <img className='h-full' src={gldLargest} onClick={handleEnlarge} alt="kodetech" />
                                 <ClickIcon enlarge={handleEnlarge} />
                             </div>
                             <div className='dx-header justify-self-end  float-right'>
