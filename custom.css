@@ -117,6 +117,7 @@ label {
     outline: red 1px solid;
 } */
 
+
 .grid-container {
     height: 68vw;
     width: 86vw;
@@ -380,7 +381,7 @@ label {
 }
 
 * {
-    /* outline: solid 1px white; */
+    border-radius: 5px
 }
 
 .click-icon {

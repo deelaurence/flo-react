@@ -90,7 +90,7 @@ const PORTFOLIOPAGE = () => {
                     {/* popup */}
                     <div className=' flex project-cont   gap-12  flex-col'>
                         <div className='mt-20 relative grid-container-dexchange'>
-                            <div className='relative overflow-hidden dx-largest'>
+                            <div className='relative overflow-hidden dx-largest '>
                                 <img className='h-full' src={gldLargest} onClick={handleEnlarge} alt="kodetech" />
                                 <ClickIcon enlarge={handleEnlarge} />
                             </div>
