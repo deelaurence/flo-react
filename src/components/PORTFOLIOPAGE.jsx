@@ -47,7 +47,8 @@ const PORTFOLIOPAGE = () => {
     return (
         <>
             <main className="portfolio px-6 md:px-16 pt-20  relative z-20 flex flex-col bg-darkShade text-lightShade md:min-h-[90vh] md:pb-10">
-                <section className='relative pb-40'>
+
+                <section className='portfolio-section relative pb-40'>
                     <div>
                         <h1 className="text-[1.6rem] font-semibold md:text-5xl">
                             Work
@@ -72,8 +73,9 @@ const PORTFOLIOPAGE = () => {
                         {/* <TbGridDots className='w-12 h-12' /> */}
                         <CiGrid42 className='mx-auto w-12 h-12 mt-6' />
                         {/* <GiBrightExplosion className='mx-auto w-12 h-12 mt-6' /> */}
-                    </div>                </section>
-                <section className='mt-20 text-[1.5rem]'>
+                    </div>
+                </section>
+                <section className='mt-20 portfolio-section text-[1.5rem]'>
                     <div>
                         <h3 className='text-center text-[1.3rem] font-semibold'>
                             Selected Projects

@@ -389,11 +389,40 @@ body {
     border-radius: 5px
 }
 
-.portfolio {
-    background-size: 120px 120px;
+.portfolio-section {
+    background-color: transparent;
     background-image:
-        linear-gradient(to right, rgba(128, 128, 128, 0.094) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(128, 128, 128, 0.094) 1px, transparent 1px);
+        linear-gradient(0deg, transparent 9%,
+            rgba(255, 255, 255, .06) 10%, rgba(255, 255, 255, .0) 12%, transparent 13%, transparent 29%,
+            rgba(255, 255, 255, .04) 30%, rgba(255, 255, 255, .0) 31%, transparent 32%, transparent 49%,
+            rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 51%, transparent 52%, transparent 69%,
+            rgba(255, 255, 255, .0) 70%, rgba(255, 255, 255, .0) 71%, transparent 72%, transparent 89%,
+            rgba(255, 255, 255, .0) 90%, rgba(255, 255, 255, .0) 91%, transparent 92%, transparent),
+        linear-gradient(90deg, transparent 9%,
+            rgba(255, 255, 255, .06) 10%, rgba(255, 255, 255, .0) 12%, transparent 13%, transparent 29%,
+            rgba(255, 255, 255, .04) 30%, rgba(255, 255, 255, .0) 31%, transparent 32%, transparent 49%,
+            rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 51%, transparent 52%, transparent 69%,
+            rgba(255, 255, 255, .0) 70%, rgba(255, 255, 255, .0) 71%, transparent 72%, transparent 89%,
+            rgba(255, 255, 255, .0) 90%, rgba(255, 255, 255, .0) 91%, transparent 92%, transparent)
+        /* linear-gradient(90deg, transparent 9%,
+            rgba(255, 255, 255, .01) 10%, rgba(255, 255, 255, .01) 12%, transparent 13%, transparent 29%,
+            rgba(255, 255, 255, .008) 30%, rgba(255, 255, 255, .008) 31%, transparent 32%, transparent 49%,
+            rgba(255, 255, 255, .006) 50%, rgba(255, 255, 255, .006) 51%, transparent 52%, transparent 69%,
+            rgba(255, 255, 255, .004) 70%, rgba(255, 255, 255, .004) 71%, transparent 72%, transparent 89%,
+            rgba(255, 255, 255, .002) 90%, rgba(255, 255, 255, .002) 91%, transparent 92%, transparent) */
+    ;
+
+    height: 100%;
+    background-size: 120px 120px;
+}
+
+.pportfolio-section {
+    /* border: 2px solid white; */
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    background-image:
+        linear-gradient(to right, rgba(128, 128, 128, 0.074) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(128, 128, 128, 0.054) 1px, transparent 1px);
 }
 
 .click-icon {
