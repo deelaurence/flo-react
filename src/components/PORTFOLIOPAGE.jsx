@@ -75,7 +75,7 @@ const PORTFOLIOPAGE = () => {
                         {/* <GiBrightExplosion className='mx-auto w-12 h-12 mt-6' /> */}
                     </div>
                 </section>
-                <section className='mt-20 portfolio-section text-[1.5rem]'>
+                <section className='mt-20 portfolio-section1 text-[1.5rem]'>
                     <div>
                         <h3 className='text-center text-[1.3rem] font-semibold'>
                             Selected Projects
